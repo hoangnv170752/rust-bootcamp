@@ -13,9 +13,9 @@ brew update
 ```bash 
 brew install openssl
 ```
-4. Tải rustup
+4. Tải rustup (Sửa lại do máy dùng zsh)
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --no-modify-path
 ```
 
 5. Chọn cài đặt mặc định
